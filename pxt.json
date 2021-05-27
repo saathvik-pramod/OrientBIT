@@ -1,11 +1,13 @@
 {
-    "name": "Untitled",
+    "name": "LED",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-orientbit": "github:mintgenie/pxt-orientbit#v1.2.2"
+        "pxt-orientbit": "github:mintgenie/pxt-orientbit#v1.2.2",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.13",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0"
     },
     "files": [
         "main.blocks",
@@ -18,5 +20,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
